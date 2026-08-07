@@ -3,7 +3,7 @@ import { SERVICE_PACKAGES } from '../data/content';
 import { Check, Sparkles, ArrowRight, ShieldCheck, Clock, MessageCircle } from 'lucide-react';
 
 interface ServicesPricingProps {
-  onSelectPackage: (packageId: string) => void;
+  onSelectPackage: (packageName: string) => void;
 }
 
 export const ServicesPricing: React.FC<ServicesPricingProps> = ({ onSelectPackage }) => {
@@ -105,7 +105,7 @@ export const ServicesPricing: React.FC<ServicesPricingProps> = ({ onSelectPackag
               {/* Action Button */}
               <div className="space-y-3 pt-4 border-t border-white/5">
                 <button
-                  onClick={() => onSelectPackage(pkg.id)}
+                  onClick={() => onSelectPackage(pkg.name)}
                   className={`w-full py-4 rounded-xl text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-2 cursor-pointer ${
                     pkg.popular
                       ? 'bg-gold-gradient text-black shadow-xl shadow-[#D4AF37]/20 hover:brightness-110 active:scale-98'
@@ -145,7 +145,7 @@ export const ServicesPricing: React.FC<ServicesPricingProps> = ({ onSelectPackag
             </p>
           </div>
           <button
-            onClick={() => onSelectPackage('custom')}
+            onClick={() => onSelectPackage('Custom Content Retainer')}
             className="px-6 py-3.5 bg-white text-black font-bold text-xs uppercase tracking-wider rounded-xl hover:bg-[#D4AF37] transition-all shrink-0 cursor-pointer"
           >
             Request Retainer Quote

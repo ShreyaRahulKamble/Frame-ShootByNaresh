@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Camera, Phone, Menu, X, MapPin, MessageCircle } from 'lucide-react';
-import { BUSINESS_INFO } from '../data/content';
+import { Camera, Phone, Menu, X, MapPin } from 'lucide-react';
 
 interface NavbarProps {
   onOpenBooking: (packageId?: string) => void;
@@ -20,13 +19,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
 
   const navLinks = [
     { label: 'About Founder', href: '#about' },
-    { label: 'Why Us', href: '#why-us' },
     { label: 'Packages', href: '#services' },
-    { label: 'Portfolio', href: '#portfolio' },
-    { label: 'Why Video', href: '#why-content' },
     { label: 'Process', href: '#process' },
     { label: 'Testimonials', href: '#testimonials' },
-    { label: 'FAQ', href: '#faq' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -87,18 +82,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             ))}
           </nav>
 
-          {/* Action CTAs */}
+          {/* Action CTA */}
           <div className="hidden sm:flex items-center gap-3">
-            <a
-              href={`https://wa.me/${BUSINESS_INFO.whatsappNumber}?text=Hi%20Naresh,%20I%20want%20to%20inquire%20about%20interior%20content%20creation%20for%20my%20project.`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-emerald-400 bg-emerald-950/40 border border-emerald-800/40 rounded-lg hover:bg-emerald-900/60 transition-all cursor-pointer"
-            >
-              <MessageCircle className="w-3.5 h-3.5" />
-              <span>WhatsApp</span>
-            </a>
-
             <button
               onClick={() => onOpenBooking()}
               className="px-4 py-2 text-xs font-bold uppercase tracking-wider text-black bg-gold-gradient rounded-lg shadow-lg shadow-[#D4AF37]/20 hover:brightness-110 active:scale-95 transition-all cursor-pointer"
@@ -159,15 +144,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             >
               Book Free Consultation
             </button>
-            <a
-              href={`https://wa.me/${BUSINESS_INFO.whatsappNumber}?text=Hi%20Naresh,%20I%20want%20to%20book%20a%20free%20consultation.`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full py-3 text-xs font-bold text-center text-emerald-400 bg-emerald-950/40 border border-emerald-800/40 rounded-lg flex items-center justify-center gap-2"
-            >
-              <MessageCircle className="w-4 h-4" />
-              <span>WhatsApp Now (+91 9004129974)</span>
-            </a>
           </div>
         </div>
       )}

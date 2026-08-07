@@ -66,16 +66,6 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
               >
                 Book Free Consultation
               </button>
-              
-              <a
-                href={`https://wa.me/${BUSINESS_INFO.whatsappNumber}?text=Hi%20Naresh,%20I%20want%20to%20book%20a%20site%20shoot.`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto px-8 py-4 bg-emerald-950/80 border border-emerald-500/40 text-emerald-400 font-extrabold text-xs uppercase tracking-wider rounded-xl flex items-center justify-center gap-2 hover:bg-emerald-900"
-              >
-                <MessageCircle className="w-4 h-4" />
-                <span>WhatsApp Now</span>
-              </a>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Sparkles, MessageCircle, MapPin, CheckCircle, ArrowRight, ShieldCheck } from 'lucide-react';
+import { Play, Sparkles, MapPin, CheckCircle, ArrowRight, ShieldCheck, MessageCircle } from 'lucide-react';
 import { BUSINESS_INFO } from '../data/content';
 
 interface HeroProps {
@@ -77,16 +77,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                 <span>Book Free Consultation</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
-
-              <a
-                href={`https://wa.me/${BUSINESS_INFO.whatsappNumber}?text=Hi%20Naresh,%20I%20saw%20your%20website%20and%20want%20to%20book%20a%20free%20consultation%20for%20my%20interior%20project.`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto px-7 py-4 text-sm font-bold text-emerald-400 bg-emerald-950/50 border border-emerald-500/30 rounded-xl hover:bg-emerald-900/60 active:scale-95 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-emerald-950/50"
-              >
-                <MessageCircle className="w-5 h-5 text-emerald-400" />
-                <span>WhatsApp Now</span>
-              </a>
             </div>
 
             {/* Micro Trust Proof */}
