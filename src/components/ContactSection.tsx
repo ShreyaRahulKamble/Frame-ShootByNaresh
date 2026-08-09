@@ -12,8 +12,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
     email: '',
     phone: '',
     location: 'Mumbai',
-    message: ''
-  });
+    message: '',});
 
   const [submitted, setSubmitted] = useState(false);
 
