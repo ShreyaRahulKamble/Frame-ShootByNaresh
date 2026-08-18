@@ -248,3 +248,4 @@ export const PortfolioSection: React.FC<PortfolioProps> = ({ onOpenBooking }) =>
     </section>
   );
 };
+

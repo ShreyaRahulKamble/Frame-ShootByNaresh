@@ -18,3 +18,4 @@ export const FloatingCTAs: React.FC = () => {
     </div>
   );
 };
+

@@ -256,3 +256,4 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
     </section>
   );
 };
+

@@ -46,7 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
           <div className="brand-cluster">
             <a href="#" className="brand-logo-link group" aria-label="Frame & Shoot Interiors home">
               <img
-                src="/assets/logo.jpg"
+                src="//assets/logo.jpg"
                 alt="Frame & Shoot Interiors"
                 className="brand-logo-mark"
                 loading="eager"
@@ -174,3 +174,4 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
     </header>
   );
 };
+

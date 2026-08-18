@@ -100,3 +100,4 @@ export const SocialMediaSection: React.FC = () => {
     </section>
   );
 };
+

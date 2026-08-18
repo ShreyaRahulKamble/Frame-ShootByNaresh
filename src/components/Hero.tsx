@@ -7,9 +7,9 @@ interface HeroProps {
 }
 
 const heroImages = [
-  { src: '/assets/IMAGE%201.png', alt: 'Interior photography showcase 1' },
-  { src: '/assets/IMAGE%202.png', alt: 'Interior photography showcase 2' },
-  { src: '/assets/IMAGE%203.png', alt: 'Interior photography showcase 3' },
+  { src: '//assets/IMAGE%201.png', alt: 'Interior photography showcase 1' },
+  { src: '//assets/IMAGE%202.png', alt: 'Interior photography showcase 2' },
+  { src: '//assets/IMAGE%203.png', alt: 'Interior photography showcase 3' },
 ];
 
 export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
@@ -120,7 +120,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               <div className="w-full flex items-center justify-center lg:justify-end lg:w-[48%]">
                 <div className="w-full max-w-[620px] overflow-hidden rounded-3xl border border-[#D4AF37]/30 bg-[#121418] shadow-2xl shadow-[#D4AF37]/10">
                   <img
-                    src="/assets/camera-hero.jpg"
+                    src="//assets/camera-hero.jpg"
                     alt="Professional camera product image"
                     className="h-[380px] sm:h-[440px] lg:h-[500px] xl:h-[540px] w-full object-cover object-center"
                     loading="eager"
@@ -134,3 +134,4 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
     </section>
   );
 };
+

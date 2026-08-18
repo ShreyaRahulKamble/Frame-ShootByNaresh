@@ -171,3 +171,4 @@ export const ProcessTimeline: React.FC<ProcessTimelineProps> = ({ onOpenBooking 
     </section>
   );
 };
+
