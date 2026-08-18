@@ -1,7 +1,10 @@
 import React from 'react';
 import { FOUNDER_INFO } from '../data/content';
 import { Award, CheckCircle2, Cpu, Wrench, Layers, Building, Quote } from 'lucide-react';
+<<<<<<< HEAD
 import founderPhoto from '../assets/founder.jpg';
+=======
+>>>>>>> 3aa7791 (Final Web)
 
 export const AboutFounder: React.FC = () => {
   return (
@@ -27,6 +30,7 @@ export const AboutFounder: React.FC = () => {
         </div>
 
         {/* Content Grid */}
+<<<<<<< HEAD
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           {/* Left Column: Image Card */}
@@ -70,6 +74,46 @@ export const AboutFounder: React.FC = () => {
                 </div>
               </div>
 
+=======
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start lg:items-center">
+          
+          {/* Left Column: Circular Founder Portrait */}
+          <div className="lg:col-span-5 relative flex flex-col items-center justify-center lg:items-center">
+            <div className="relative flex justify-center items-center">
+              
+              {/* Subtle Outer Glow */}
+              <div className="absolute -inset-4 rounded-full bg-gradient-to-tr from-[#D4AF37]/25 via-[#D4AF37]/10 to-transparent blur-3xl"></div>
+
+              {/* Circular Portrait */}
+              <div className="relative w-[300px] h-[300px] sm:w-[320px] sm:h-[320px] lg:w-[340px] lg:h-[340px] rounded-full overflow-hidden border-[3px] border-[#D4AF37] shadow-[0_0_36px_rgba(212,175,55,0.28)] bg-[#0F1115]">
+                <img
+                  src={FOUNDER_INFO.image}
+                  alt="Naresh Budamol — Founder of Frame & Shoot Interiors"
+                  className="w-full h-full object-cover object-center"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            {/* Founder Info Card Below Portrait */}
+            <div className="mt-10 w-full max-w-sm text-center p-6 rounded-2xl glass-panel-gold border border-[#D4AF37]/30 bg-[#121418]/80 shadow-[0_18px_45px_rgba(0,0,0,0.2)]">
+              <p className="text-xs font-bold text-[#D4AF37] uppercase tracking-wider">
+                {FOUNDER_INFO.title}
+              </p>
+              <h3 className="text-lg font-syne font-bold text-white mt-2">
+                {FOUNDER_INFO.name}
+              </h3>
+              <p className="text-xs text-gray-300 mt-2">
+                8+ Years Furniture Industry & Felder Group Legacy
+              </p>
+              <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-center lg:justify-start gap-2 text-xs text-gray-300">
+                <Building className="w-4 h-4 text-[#D4AF37]" />
+                <span>Mumbai & Hyderabad</span>
+                <span className="text-emerald-400 font-bold bg-emerald-950/60 px-2 py-0.5 rounded text-[10px]">
+                  Verified Founder
+                </span>
+              </div>
+>>>>>>> 3aa7791 (Final Web)
             </div>
           </div>
 

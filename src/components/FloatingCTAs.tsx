@@ -1,12 +1,19 @@
 import React from 'react';
+<<<<<<< HEAD
 import { MessageCircle, Phone } from 'lucide-react';
+=======
+import { Phone } from 'lucide-react';
+>>>>>>> 3aa7791 (Final Web)
 import { BUSINESS_INFO } from '../data/content';
 
 export const FloatingCTAs: React.FC = () => {
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-3 pointer-events-none">
+<<<<<<< HEAD
       
       {/* Phone Call Floating Button */}
+=======
+>>>>>>> 3aa7791 (Final Web)
       <a
         href={`tel:${BUSINESS_INFO.phone}`}
         className="pointer-events-auto group relative flex items-center justify-center w-12 h-12 rounded-full bg-[#16181E] border border-white/20 shadow-xl hover:scale-110 active:scale-95 transition-all"
@@ -17,6 +24,7 @@ export const FloatingCTAs: React.FC = () => {
           Call: +91 9004129974
         </span>
       </a>
+<<<<<<< HEAD
 
       {/* WhatsApp Floating Button */}
       <a
@@ -32,6 +40,8 @@ export const FloatingCTAs: React.FC = () => {
         </span>
       </a>
 
+=======
+>>>>>>> 3aa7791 (Final Web)
     </div>
   );
 };

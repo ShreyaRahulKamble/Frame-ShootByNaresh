@@ -12,7 +12,12 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
     email: '',
     phone: '',
     location: 'Mumbai',
+<<<<<<< HEAD
     message: '',});
+=======
+    message: ''
+  });
+>>>>>>> 3aa7791 (Final Web)
 
   const [submitted, setSubmitted] = useState(false);
 
@@ -58,7 +63,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenBooking })
               Book a site shoot in Mumbai or Hyderabad today and start receiving pre-qualified client enquiries on Instagram & WhatsApp.
             </p>
 
+<<<<<<< HEAD
             <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+=======
+            <div className="pt-4 flex items-center justify-center">
+>>>>>>> 3aa7791 (Final Web)
               <button
                 onClick={onOpenBooking}
                 className="w-full sm:w-auto px-8 py-4 bg-gold-gradient text-black font-extrabold text-xs uppercase tracking-wider rounded-xl shadow-xl hover:brightness-110 cursor-pointer"
