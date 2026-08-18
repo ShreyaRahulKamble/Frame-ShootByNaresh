@@ -1,10 +1,6 @@
 import React from 'react';
 import { FOUNDER_INFO } from '../data/content';
 import { Award, CheckCircle2, Cpu, Wrench, Layers, Building, Quote } from 'lucide-react';
-<<<<<<< HEAD
-import founderPhoto from '../assets/founder.jpg';
-=======
->>>>>>> 3aa7791 (Final Web)
 
 export const AboutFounder: React.FC = () => {
   return (
@@ -30,51 +26,6 @@ export const AboutFounder: React.FC = () => {
         </div>
 
         {/* Content Grid */}
-<<<<<<< HEAD
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
-          {/* Left Column: Image Card */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative mx-auto max-w-md lg:max-w-none">
-              
-              {/* Outer Glow */}
-              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-[#D4AF37]/30 via-transparent to-[#FF7A00]/20 blur-xl"></div>
-
-              {/* Main Card */}
-              <div className="relative rounded-2xl overflow-hidden border border-[#D4AF37] bg-[#121418] p-4 shadow-[0_30px_80px_rgba(0,0,0,0.45)]">
-                <div className="relative rounded-[2rem] overflow-hidden border border-[#D4AF37] bg-black shadow-xl">
-                  <div className="aspect-[4/5] w-full">
-                    <img
-                      src={founderPhoto}
-                      alt="Naresh Budamol"
-                      className="w-full h-full object-cover"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-
-                <div className="mt-4 text-center px-3 pb-4">
-                  <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#D4AF37]">
-                    Founder – Frame & Shoot Interiors by Naresh
-                  </p>
-                  <h3 className="mt-2 text-2xl font-syne font-extrabold text-white">
-                    Naresh Budamol
-                  </h3>
-                </div>
-
-                {/* Floating Experience Badge */}
-                <div className="mt-3 p-3 bg-[#181B22] rounded-xl border border-white/10 flex items-center justify-between text-xs">
-                  <div className="flex items-center gap-2 text-gray-300">
-                    <Building className="w-4 h-4 text-[#D4AF37]" />
-                    <span>Locations: <strong className="text-white">Mumbai & Hyderabad</strong></span>
-                  </div>
-                  <span className="text-emerald-400 font-bold bg-emerald-950/60 px-2 py-0.5 rounded text-[10px]">
-                    Verified Founder
-                  </span>
-                </div>
-              </div>
-
-=======
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start lg:items-center">
           
           {/* Left Column: Circular Founder Portrait */}
@@ -113,7 +64,6 @@ export const AboutFounder: React.FC = () => {
                   Verified Founder
                 </span>
               </div>
->>>>>>> 3aa7791 (Final Web)
             </div>
           </div>
 

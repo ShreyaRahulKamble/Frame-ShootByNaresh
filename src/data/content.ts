@@ -24,11 +24,7 @@ export const FOUNDER_INFO = {
   name: "Naresh Budamol",
   title: "Founder & Creative Director",
   tagline: "Bridging the Gap Between Craftsmanship & Visual Storytelling",
-<<<<<<< HEAD
-  image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop", // Professional founder headshot
-=======
   image: "/assets/Founder.jpg", // Professional founder headshot
->>>>>>> 3aa7791 (Final Web)
   bio: [
     "With over 8 years of deep-rooted experience in the furniture manufacturing industry, modular furniture design, raw materials, and precision woodworking machinery (including hands-on industry experience with the world-renowned Felder Group), Naresh brings a rare, technical understanding to interior content creation.",
     "Unlike generic photographers, Naresh understands the craftsmanship behind a seamless modular kitchen hinge, the texture of premium veneer finish, lighting accents on luxury wardrobe channels, and the architectural symmetry required to make a space feel grand.",

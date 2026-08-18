@@ -47,46 +47,6 @@ export const ProcessTimeline: React.FC<ProcessTimelineProps> = ({ onOpenBooking 
           </p>
         </div>
 
-<<<<<<< HEAD
-        {/* Timeline Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
-          {PROCESS_STEPS.map((step) => (
-            <div
-              key={step.step}
-              className="glass-card rounded-2xl p-6 border border-white/10 hover:border-[#D4AF37]/50 transition-all duration-300 relative group flex flex-col justify-between"
-            >
-              <div>
-                {/* Step Header */}
-                <div className="flex items-center justify-between mb-5">
-                  <div className="w-10 h-10 rounded-xl bg-gold-gradient flex items-center justify-center font-bold shadow-lg shadow-[#D4AF37]/20">
-                    {getIcon(step.iconName)}
-                  </div>
-                  <span className="text-2xl font-syne font-extrabold text-[#D4AF37]/40 group-hover:text-[#D4AF37] transition-colors">
-                    0{step.step}
-                  </span>
-                </div>
-
-                <h3 className="text-lg font-bold font-syne text-white mb-2 group-hover:text-[#D4AF37] transition-colors">
-                  Step {step.step}: {step.title}
-                </h3>
-
-                <p className="text-xs sm:text-sm text-gray-300 leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
-
-              {/* Detail Pill */}
-              <div className="mt-6 pt-4 border-t border-white/5 flex items-center justify-between">
-                <span className="text-[11px] font-semibold text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded-md border border-emerald-800/40">
-                  {step.detail}
-                </span>
-                <span className="text-xs text-gray-500 group-hover:text-white transition-colors">
-                  Phase {step.step}/6
-                </span>
-              </div>
-            </div>
-          ))}
-=======
         <div className="relative">
           <div className="hidden lg:block absolute left-8 right-8 top-10 h-px bg-gradient-to-r from-[#D4AF37]/60 via-[#D4AF37] to-[#D4AF37]/60" />
 
@@ -194,7 +154,6 @@ export const ProcessTimeline: React.FC<ProcessTimelineProps> = ({ onOpenBooking 
               </div>
             ))}
           </div>
->>>>>>> 3aa7791 (Final Web)
         </div>
 
         {/* Bottom Action CTA */}
