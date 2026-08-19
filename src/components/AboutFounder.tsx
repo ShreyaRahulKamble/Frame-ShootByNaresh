@@ -1,6 +1,6 @@
 import React from 'react';
 import { FOUNDER_INFO } from '../data/content';
-import { Award, CheckCircle2, Cpu, Wrench, Layers, Building, Quote } from 'lucide-react';
+import { Award, CheckCircle2, Cpu, Wrench, Layers, Building, Quote } from 'lucide-react'; 
 
 export const AboutFounder: React.FC = () => {
   return (
@@ -38,7 +38,7 @@ export const AboutFounder: React.FC = () => {
               {/* Circular Portrait */}
               <div className="relative w-[300px] h-[300px] sm:w-[320px] sm:h-[320px] lg:w-[340px] lg:h-[340px] rounded-full overflow-hidden border-[3px] border-[#D4AF37] shadow-[0_0_36px_rgba(212,175,55,0.28)] bg-[#0F1115]">
                 <img
-                  src={FOUNDER_INFO.image}
+                  src="/assets/founder.jpg"
                   alt="Naresh Budamol — Founder of Frame & Shoot Interiors"
                   className="w-full h-full object-cover object-center"
                   loading="lazy"
