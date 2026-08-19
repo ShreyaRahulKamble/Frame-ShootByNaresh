@@ -24,7 +24,7 @@ export const FOUNDER_INFO = {
   name: "Naresh Budamol",
   title: "Founder & Creative Director",
   tagline: "Bridging the Gap Between Craftsmanship & Visual Storytelling",
-  image: "/assets/founder.jpg", // Professional founder headshot
+  image: "/assets/founder.jpg", / Professional founder headshot
   bio: [
     "With over 8 years of deep-rooted experience in the furniture manufacturing industry, modular furniture design, raw materials, and precision woodworking machinery (including hands-on industry experience with the world-renowned Felder Group), Naresh brings a rare, technical understanding to interior content creation.",
     "Unlike generic photographers, Naresh understands the craftsmanship behind a seamless modular kitchen hinge, the texture of premium veneer finish, lighting accents on luxury wardrobe channels, and the architectural symmetry required to make a space feel grand.",
@@ -251,7 +251,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Principal Architect",
     company: "Nav Design Solutions",
     location: "Mumbai",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop",
+    image: "https:/images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop",
     quote: "Naresh's background in furniture and modular hardware makes a huge difference. He knows exactly which joinery details and lighting channels to highlight. The Reel he shot generated 4 direct client meetings within a week!",
     rating: 5,
     projectType: "3BHK Luxury Duplex Walkthrough"
@@ -262,7 +262,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Founder & Lead Designer",
     company: "SOVI Interiors",
     location: "Hyderabad",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop",
+    image: "https:/images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop",
     quote: "Working with Frame & Shoot was effortless. They handled everything from lighting setup to video editing. Our Instagram follower count grew by 2,500+ and our inbox is constantly filled with quality enquiries in Hyderabad.",
     rating: 5,
     projectType: "Modular Kitchen & Villa Interior"
@@ -273,7 +273,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Managing Director",
     company: "Tirumala Furniture Mall",
     location: "Hyderabad",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop",
+    image: "https:/images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop",
     quote: "Showroom content needs a different touch than homes. Naresh captured our premium sofa collections and dining displays with grand cinematic motion. Highly recommended for any furniture manufacturer or showroom owner!",
     rating: 5,
     projectType: "10,000 sq ft Furniture Showroom Shoot"
